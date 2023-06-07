@@ -5,7 +5,17 @@ class Api::V1::SubscriptionsController < ApplicationController
     if subscription.save
       render json: SubscriptionSerializer.new(subscription), status: :created
     else 
-      render json: { error: "Unable to create subscription." }, status: 401
+      render json: { error: "Unable to create subscription." }, status: 400
+    end
+  end
+
+  def update
+    subscription = Subscription.find(params[:id])
+    subscription.update(subscription_params)
+    if subscription.save
+      render json: SubscriptionSerializer.new(Subscription.update(params[:id], subscription_params))
+    else
+      render json: { error: "Unable to update subscription." }, status: 400
     end
   end
 
