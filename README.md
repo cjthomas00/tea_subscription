@@ -105,7 +105,7 @@ Once `tea_subscription` is correctly installed, run tests locally to ensure the 
 
 ## Available Endpoints
 
-Current endpoint documentation exists on Postman [here]([https://documenter.getpostman.com/view/26379339/2s93mBxKZq](https://www.postman.com/planetary-astronaut-442565/workspace/tea-subscription/documentation/26382006-24579d08-c9cb-45b4-bed3-853acf6f28b0)).
+Current endpoint documentation exists on Postman [here](https://www.postman.com/planetary-astronaut-442565/workspace/tea-subscription/documentation/26382006-24579d08-c9cb-45b4-bed3-853acf6f28b0).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
